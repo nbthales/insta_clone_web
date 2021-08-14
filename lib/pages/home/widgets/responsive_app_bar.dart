@@ -8,6 +8,7 @@ class ResponsiveAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      brightness: Brightness.dark,
       backgroundColor: Colors.black,
       elevation: 1,
       title: Center(
