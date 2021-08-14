@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:insta_clone_web/pages/home/widgets/post_widget.dart';
 import 'package:insta_clone_web/pages/home/widgets/responsive_app_bar.dart';
 import 'package:insta_clone_web/pages/home/widgets/stories_list.dart';
 
@@ -20,6 +21,9 @@ class HomePage extends StatelessWidget {
           child: ListView(
             children: [
               StoriesList(),
+              PostWidget(),
+              PostWidget(),
+              PostWidget(),
             ],
           ),
         ),
